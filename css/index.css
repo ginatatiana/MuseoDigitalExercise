@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+    font-family:'MuseoModerno', cursive;
+}
+header{
+    background-color: black;
+    height: 60px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    width: auto;
+    margin-left: 1000px;
+    padding-top: 3px;
+}
+li{
+    color: white;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+.wallpaper-container{
+    width: 100%;
+    height: auto;
+}
+.wallpaper-container img{
+    width: 100%;
+}
+section{
+    min-height: 500px;
+}
+.bustoNefertiti{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: auto;
+    margin-top: 20px;
+    padding: 80px;
+}
+.bustoNefertiti-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bustoNefertiti div img{
+    height: 700px;
+    width: 550px;
+    background-color: beige;
+}
+p{
+    font-size: 500%;
+    color: white;
+}
+h1{
+text-align: center;
+padding: 100px;
+}
+.button-item{
+    background-color: #5b645b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.elRaptoPersefone {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: auto;
+    margin-top: 20px;
+    padding: 80px;
+}
+.elRaptoPersefone-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.elRaptoPersefone div img{
+    height: 700px;
+    width: 550px;
+    background-color: beige;
+}
+
+.tripticoElJardin{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: auto;
+    margin-top: 20px;
+    padding: 80px;
+}
+.tripticoElJardin-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tripticoElJardin div img{
+    height: 700px;
+    width: 1000px;
+    background-color: beige;
+}
